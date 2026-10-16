@@ -10,7 +10,7 @@ function InstagramIcon() {
 }
 function SunIcon() { return <svg aria-hidden="true" viewBox="0 0 24 24" className="toggle-icon"><circle cx="12" cy="12" r="3.6"/><path d="M12 2.25v2.1M12 19.65v2.1M21.75 12h-2.1M4.35 12h-2.1M18.9 5.1l-1.5 1.5M6.6 17.4l-1.5 1.5M18.9 18.9l-1.5-1.5M6.6 6.6L5.1 5.1"/></svg>; }
 function MoonIcon() { return <svg aria-hidden="true" viewBox="0 0 24 24" className="toggle-icon"><path d="M19.5 15.2A7.8 7.8 0 0 1 8.8 4.5 8.3 8.3 0 1 0 19.5 15.2Z"/></svg>; }
-function BrandMark() { return <img className="brand-mark" src="/gta%206%20logo.webp" alt="GTA VI" />; }
+function BrandMark() { return <img className="brand-mark" src="/GTA-6-Logo-PNG-from-Grand-Theft-Auto-VI-Transparent.png" alt="GTA VI" />; }
 
 function Header({ dark, setDark }) {
   return <header className="site-header">
@@ -25,8 +25,7 @@ function AgreementPreview() {
   return <article className="agreement" aria-label="Preview of the Launch Day Agreement">
     <div className="agreement-inner">
       <div className="agreement-top"><span>INDEPENDENT NOVELTY AGREEMENT</span><span>NO. 13 / VI</span></div>
-      <div className="agreement-brand"><img className="mini-mark" src="/gta%206%20logo.webp" alt="GTA VI" /><p>GTA VI<br/><small>LAUNCH DAY EDITION</small></p></div>
-      <p className="agreement-kicker">THE LAUNCH DAY AGREEMENT</p>
+      <div className="agreement-brand"><img className="mini-mark" src="/GTA-6-Logo-PNG-from-Grand-Theft-Auto-VI-Transparent.png" alt="GTA VI" /></div>
       <h2>Launch Day<br/><em>Agreement</em></h2>
       <div className="rule" />
       <section className="clause featured"><h3>CLAUSE 01 <span>THE 13-YEAR WAIT</span></h3><p>After thirteen years of anticipation, the undersigned hereby declares that GTA VI launch day is a priority event and shall be treated with the respect it deserves.</p></section>
